@@ -1,0 +1,62 @@
+{
+  "version": 4,
+  "terraform_version": "1.1.9",
+  "serial": 56,
+  "lineage": "43914a5a-df42-eb29-1d4c-0c1bea37e7e5",
+  "outputs": {
+    "cluster_endpoint": {
+      "value": "https://2AF5AB705BE0840AE90E7B744129087A.gr7.us-east-1.eks.amazonaws.com",
+      "type": "string"
+    },
+    "cluster_id": {
+      "value": "rax-eks-wFcVqAU9",
+      "type": "string"
+    },
+    "cluster_name": {
+      "value": "rax-eks-wFcVqAU9",
+      "type": "string"
+    },
+    "cluster_security_group_id": {
+      "value": "sg-0e96588c8a5a8b508",
+      "type": "string"
+    },
+    "config_map_aws_auth": {
+      "value": [
+        {
+          "binary_data": {},
+          "data": {
+            "mapAccounts": "[]\n",
+            "mapRoles": "- \"groups\":\n  - \"system:bootstrappers\"\n  - \"system:nodes\"\n  \"rolearn\": \"arn:aws:iam::944163165741:role/rax-eks-wFcVqAU92022051213080085840000000e\"\n  \"username\": \"system:node:{{EC2PrivateDNSName}}\"\n",
+            "mapUsers": "[]\n"
+          },
+          "id": "kube-system/aws-auth",
+          "metadata": [
+            {
+              "annotations": {},
+              "generate_name": "",
+              "generation": 0,
+              "labels": {
+                "app.kubernetes.io/managed-by": "Terraform",
+                "terraform.io/module": "terraform-aws-modules.eks.aws"
+              },
+              "name": "aws-auth",
+              "namespace": "kube-system",
+              "resource_version": "1533",
+              "uid": "ede806e5-e113-440f-b334-1de5c083c3fe"
+            }
+          ]
+        }
+      ],
+      "type": [
+        "tuple",
+        [
+          [
+            "object",
+            {
+              "binary_data": [
+                "map",
+                "string"
+              ],
+              "data": [
+                "map",
+"terraform.tfstate.1652370948.backup" 3082L, 134036B   
