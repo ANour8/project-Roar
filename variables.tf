@@ -11,3 +11,4 @@ variable "private_subnets" {
 variable "public_subnets" {
   default     = ["10.0.4.0/24", "10.0.5.0/24", "10.0.6.0/24"]
   description = "public subnet range"
+}
